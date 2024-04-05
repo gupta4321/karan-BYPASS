@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "DeveloperMode": true,
+  "DeveloperMode": false,
   "autoCreateDB": false,
   "allowInbox": false,
   "autoClean": true,
