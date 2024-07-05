@@ -13,7 +13,7 @@ module.exports.config = {
 
 module.exports.run = async function({ api, event, args, Currencies, utils, Users }) {
 	const moment = require("moment");
-	var time = moment.tz("Asia/Manila").format("HH:MM:ss L");
+	var time = moment.tz("Asia/Kolkata").format("HH:MM:ss L");
 	let data = await api.getUserInfo(event.senderID);
     let name = await data[event.senderID].name
     return api.sendMessage(`👋 Hi ${name} Have a nice day!\nIt's now: ${time}`, event.threadID, event.messageID)
