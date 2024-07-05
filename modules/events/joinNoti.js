@@ -22,25 +22,25 @@ const vid = (
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     const fs = require("fs");
-    return api.sendMessage("চলে এসেছি আমি Romim Picci তোমাদের মাঝে🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("I am Karan bot 🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} CONNECTED«\n\nJai Shree Ram☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
 APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
-\n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)\n${global.config.PREFIX}photoxy (no.) (name)\n${global.config.PREFIX}textpro (no.) (name)
+\n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}bard query (answer)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)\n${global.config.PREFIX}photoxy (no.) (name)\n${global.config.PREFIX}textpro (no.) (name)
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :R4M1M
+DEVELOPER :KARAN
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/profile.php?id=61557377382818&mibextid=ZbWKwL
+www.facebook.com/100093685579556
 
-🔵WHATSAPP NUMBER: wa.me/+8801822583558
+🔵WHATSAPP NUMBER: setting mna karti hai🤭
 
-🟢SUPPORT EMAIL: facebook7890123456@gmail.com`, attachment: vid
+🟢SUPPORT EMAIL: aadigupta046@gmail.com`, attachment: vid
     } ,threadID));
   }
   else {
